@@ -2,12 +2,12 @@
   "name": "tweetmapper",
   "version": "1.0.0",
   "description": "Tweet mapping webApp that pulls tweets via Twitter's steam API using logstash and outputs that to the elasticsearch for storage/indexing",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
-  "author": "Omkar R Keluskar",
-  "license": "ISC",
+  "author": "Prashantkumar Patel",
+  "license": "",
   "dependencies": {
     "body-parser": "^1.18.2",
     "child_process": "^1.0.2",
