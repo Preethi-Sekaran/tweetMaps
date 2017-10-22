@@ -1,0 +1,24 @@
+#VS-Code
+.vscode
+
+#node-modules
+node_modules/*
+node_modules
+
+#node logs
+*.log
+
+#config file
+config.js
+
+#Elastic-beanstalk config
+.elasticbeanstalk/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+#temp files for eb deploy
+ES_conn.js
+twitter_conn.js
